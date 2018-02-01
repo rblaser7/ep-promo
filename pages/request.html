@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ryan Blaser Music</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<header>
+    <h1>Ryan Blaser Music</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a class="dropbtn" href="music.html">Music</a>
+                <div class="dropdown-content">
+                    <a href="epitome.html">The Epitome of Productivity</a>
+                    <a href="mistletoe.html">Under the Mistletoe</a>
+                    <a href="instrument.html">An Instrument in Thy Hands</a>
+                </div>
+            </li>
+            <li class="active"><a href="#">Download</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="requestPage">
+        <h2>Request a Download</h2>
+        <div class="requestForm">
+            <form>
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text">
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="text">
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <br>
+                <input id="epitome" name="epitome" type="checkbox">
+                <label for="epitome" class="epitome">Epitome of Productivity</label>
+                <br>
+                <input id="mistletoe" name="mistletoe" type="checkbox">
+                <label for="mistletoe" class="mistletoe">Under the Mistletoe</label>
+                <br>
+                <input id="instrument" name="instrument" type="checkbox">
+                <label for="instrument" class="instrument">An Instrument in Thy Hands</label>
+                <br>
+                <br>
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </div>
+    </div>
+</body>
+<br><br><hr>
+<footer><a href="https://github.com/rblaser7/ep-promo">GitHub Repo</a></footer>
+</html>
